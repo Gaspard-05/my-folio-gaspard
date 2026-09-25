@@ -1,4 +1,4 @@
-# 🎨 Portfolio Isidore — EIG Bénin
+# 🎨 Portfolio Gaspard — EIG Bénin
 
 Portfolio personnel développé avec **React** et **Vite**, dans le cadre du programme **EIG Bénin** (Entrepreneurs d'Intérêt Général).
 
@@ -9,6 +9,7 @@ Portfolio personnel développé avec **React** et **Vite**, dans le cadre du pro
 | Technologie | Version | Rôle |
 |---|---|---|
 | [React](https://react.dev/) | 19 | Framework UI |
+| [React Router](https://reactrouter.com/) | 7 | Routage (accueil, expériences, détail projet) |
 | [Vite](https://vitejs.dev/) | 8 | Bundler / Dev server |
 | [Tailwind CSS](https://tailwindcss.com/) | 3 | Styling utilitaire |
 | [Oxlint](https://oxc.rs/docs/guide/usage/linter.html) | — | Linter JS/JSX |
@@ -19,39 +20,53 @@ Portfolio personnel développé avec **React** et **Vite**, dans le cadre du pro
 ## 📁 Structure du projet
 
 ```
-_portfolio_ISIDORE_EIG/
-├── public/                  # Assets statiques
+My-Folio-Gaspard/
+├── public/                          # Assets statiques
 ├── src/
-│   ├── assets/              # Images et médias
-│   ├── components/          # Composants React
-│   │   ├── Navbar.jsx       # Barre de navigation
-│   │   ├── Hero.jsx         # Section d'accueil
-│   │   ├── About.jsx        # À propos
-│   │   ├── Skills.jsx       # Compétences
-│   │   ├── Experience.jsx   # Expériences professionnelles
-│   │   ├── Projects.jsx     # Projets réalisés
-│   │   ├── Services.jsx     # Services proposés
-│   │   ├── Technologies.jsx # Technologies maîtrisées
-│   │   ├── Education.jsx    # Formation académique
-│   │   ├── Testimonials.jsx # Témoignages
-│   │   ├── Contact.jsx      # Formulaire de contact
-│   │   ├── Footer.jsx       # Pied de page
-│   │   └── ui/              # Composants UI réutilisables
+│   ├── assets/                      # Images et médias
+│   ├── components/                  # Composants React
+│   │   ├── NavbarComponent.jsx      # Barre de navigation
+│   │   ├── HeroComponent.jsx        # Section d'accueil
+│   │   ├── AboutComponent.jsx       # À propos
+│   │   ├── SkillsComponent.jsx      # Compétences
+│   │   ├── ParcoursComponent.jsx    # Parcours
+│   │   ├── ExperiencesComponent.jsx # Expériences professionnelles
+│   │   ├── ProjectsComponent.jsx    # Liste des projets
+│   │   ├── ProjectDetailComponent.jsx # Détail d'un projet (route dynamique)
+│   │   ├── ServicesComponent.jsx    # Services proposés
+│   │   ├── TechnologiesComponent.jsx # Technologies maîtrisées
+│   │   ├── EducationComponent.jsx   # Formation académique
+│   │   ├── ContactComponent.jsx     # Formulaire de contact
+│   │   ├── FooterComponent.jsx      # Pied de page
+│   │   ├── WhatsAppButtonComponent.jsx # Bouton flottant WhatsApp
+│   │   └── ui/                      # Composants UI réutilisables
+│   │       ├── RevealSectionComponent.jsx
+│   │       └── ThemeToggleComponent.jsx
 │   ├── data/
-│   │   ├── siteContent.js   # Contenu principal du site
-│   │   └── projects.js      # Données des projets
+│   │   ├── siteContent.js           # Contenu principal du site
+│   │   └── projects.js              # Données des projets
 │   ├── hooks/
-│   │   └── useTheme.js      # Hook gestion thème dark/light
-│   ├── App.jsx              # Composant racine
-│   ├── App.css              # Styles du composant App
-│   ├── index.css            # Styles globaux
-│   └── main.jsx             # Point d'entrée
+│   │   └── useTheme.js              # Hook gestion thème dark/light
+│   ├── App.jsx                      # Composant racine + routage
+│   ├── App.css                      # Styles du composant App
+│   ├── index.css                    # Styles globaux
+│   └── main.jsx                     # Point d'entrée
 ├── index.html
 ├── vite.config.js
 ├── tailwind.config.js
 ├── postcss.config.js
 └── package.json
 ```
+
+---
+
+## 🧭 Routes
+
+| Route | Composant | Description |
+|---|---|---|
+| `/` | `Home` | Page d'accueil (toutes les sections) |
+| `/experiences` | `ExperiencesComponent` | Détail des expériences |
+| `/projets/:slug` | `ProjectDetailComponent` | Détail d'un projet |
 
 ---
 
@@ -97,11 +112,12 @@ npm run lint
 
 ## 🎨 Fonctionnalités
 
-- ✅ **Mode sombre / clair** — basculement automatique via `useTheme`
+- ✅ **Mode sombre / clair** — basculement via `useTheme` et `ThemeToggleComponent`
 - ✅ **Design responsive** — adapté mobile, tablette et desktop
-- ✅ **Gradient animé** — fond avec dégradés radial rouge/rose
-- ✅ **Single Page Application** — navigation fluide sans rechargement
-- ✅ **Sections complètes** — Hero, À propos, Compétences, Expériences, Projets, Services, Technologies, Formation, Témoignages, Contact
+- ✅ **Routage multi-pages** — accueil, page expériences, pages détail projet
+- ✅ **Animations au scroll** — révélation des sections via `RevealSectionComponent`
+- ✅ **Bouton de contact WhatsApp** — accès rapide à la discussion
+- ✅ **Sections complètes** — Hero, À propos, Compétences, Parcours, Projets, Services, Technologies, Formation, Contact
 
 ---
 
