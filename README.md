@@ -1,4 +1,4 @@
-# 🎨 Portfolio Gaspard — EIG Bénin
+# 🎨 Portfolio Gaspard
 
 Portfolio personnel développé avec **React** et **Vite**, dans le cadre du programme **EIG Bénin** (Entrepreneurs d'Intérêt Général).
 
