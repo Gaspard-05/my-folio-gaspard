@@ -8,6 +8,11 @@ const educationItems = [
     year: '2026',
     certificate: '/certificates/Gestion-Projet-Agile.pdf',
   },
+  {
+    title: 'Certification APIs Back-End',
+    institution: 'IBM SkillsBuild',
+    year: 'En cours',
+  },
 ]
 
 export default function EducationComponent() {
