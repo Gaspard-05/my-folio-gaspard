@@ -25,6 +25,10 @@ const skillGroups = [
   {
     title: 'Notions',
     skills: ['Docker', 'Kubernetes', 'Helm', 'OAuth2', 'JWT', 'CI/CD/Github Actions', 'Tests unitaires et d’intégration'],
+  },
+  {
+    title: 'Déploiement & Hébergement',
+    skills: ['Vercel', 'InfinityFree'],
   }
 
 ]
@@ -37,14 +41,14 @@ export default function SkillsComponent() {
 
         <div className="grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
           {skillGroups.map((group) => (
-            <div key={group.title} className="rounded-2xl border border-slate-200/80 bg-[#faf8f5]/80 p-6 shadow-[0_14px_50px_-25px_rgba(15,23,42,0.12)] backdrop-blur-xl transition hover:-translate-y-1 hover:border-red-300 dark:border-slate-800 dark:bg-slate-900/80">
+            <div key={group.title} className="rounded-2xl border border-slate-200/80 bg-[#faf8f5]/80 p-4 shadow-[0_14px_50px_-25px_rgba(15,23,42,0.12)] backdrop-blur-xl transition hover:-translate-y-1 hover:border-red-300 dark:border-slate-800 dark:bg-slate-900/80">
               <div className="flex items-center gap-3">
                 <span className="h-2.5 w-2.5 rounded-full bg-red-500" />
-                <h3 className="text-xl font-semibold text-slate-900 dark:text-white">{group.title}</h3>
+                <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{group.title}</h3>
               </div>
-              <div className="mt-5 flex flex-wrap gap-3">
+              <div className="mt-3 flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
-                  <span key={skill} className="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-sm text-slate-700 shadow-sm dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">
+                  <span key={skill} className="rounded-full border border-slate-200 bg-slate-50 px-2.5 py-1 text-sm text-slate-700 shadow-sm dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200">
                     {skill}
                   </span>
                 ))}
