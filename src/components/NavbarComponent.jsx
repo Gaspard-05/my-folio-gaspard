@@ -71,7 +71,7 @@ export default function NavbarComponent() {
       />
 
       <div
-        className={`fixed inset-y-0 right-0 z-[70] flex w-[80%] max-w-xs transform flex-col bg-[#1D3BB3] shadow-2xl transition-transform duration-300 ease-out lg:hidden ${open ? 'translate-x-0' : 'translate-x-full'}`}
+        className={`fixed inset-y-0 right-0 z-[70] flex w-[60%] max-w-xs transform flex-col bg-[#1D3BB3] shadow-2xl transition-transform duration-300 ease-out lg:hidden ${open ? 'translate-x-0' : 'translate-x-full'}`}
         role="dialog"
         aria-modal="true"
         aria-label="Menu de navigation"
