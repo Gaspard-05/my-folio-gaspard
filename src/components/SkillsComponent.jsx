@@ -24,7 +24,7 @@ const skillGroups = [
   },
   {
     title: 'Notions',
-    skills: ['Docker', 'Kubernetes', 'Helm', 'OAuth2', 'JWT', 'CI/CD/Github Actions', 'Tests unitaires et d’intégration'],
+    skills: ['PostgreSQL','Docker', 'Kubernetes', 'Helm', 'OAuth2', 'JWT', 'CI/CD/Github Actions', 'Tests unitaires et d’intégration'],
   },
   {
     title: 'Déploiement & Hébergement',
