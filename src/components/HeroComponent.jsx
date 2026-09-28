@@ -5,11 +5,6 @@ export default function HeroComponent() {
     <RevealSectionComponent id="home" className="relative overflow-hidden py-14 lg:py-20">
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-4 sm:px-6 lg:flex-row lg:items-stretch lg:justify-between lg:px-8">
         <div className="max-w-2xl flex-1 lg:flex lg:min-h-[34rem] lg:flex-col lg:justify-between lg:pt-2 lg:pb-2">
-          {/* <div className="inline-flex items-center gap-2 rounded-full border border-red-200/80 bg-[#faf8f5]/80 px-4 py-2 text-sm font-medium text-red-600 shadow-sm backdrop-blur dark:border-red-900/60 dark:bg-slate-900/70 dark:text-red-300">
-            <span className="h-2.5 w-2.5 rounded-full bg-red-500" />
-            Développeur Frontend • React • Tailwind
-          </div> */}
-
           <div className="space-y-8 lg:pt-6">
             <div className="inline-flex max-w-full items-center gap-2.5 rounded-full border border-slate-200/80 bg-[#faf8f5]/80 px-3 py-1.5 text-xs font-medium leading-snug text-slate-700 shadow-sm backdrop-blur dark:border-slate-700 dark:bg-slate-900/70 dark:text-slate-200 sm:px-4 sm:py-2 sm:text-sm">
               <span className="relative flex h-2.5 w-2.5 shrink-0">
@@ -58,17 +53,6 @@ export default function HeroComponent() {
                 className="aspect-[4/5] w-full object-cover object-top sm:aspect-auto sm:h-[22rem] lg:h-[27rem]"
               />
             </div>
-
-            {/* <div className="grid gap-3 sm:grid-cols-2">
-              <div className="rounded-none border border-slate-200 bg-slate-50/80 p-4 transition hover:-translate-y-1 hover:border-red-300 dark:border-slate-700 dark:bg-slate-800/70">
-                <p className="text-2xl font-semibold text-slate-900 dark:text-white">8+</p>
-                <p className="text-sm text-slate-600 dark:text-slate-300">années d’expérience</p>
-              </div>
-              <div className="rounded-none border border-slate-200 bg-slate-50/80 p-4 transition hover:-translate-y-1 hover:border-red-300 dark:border-slate-700 dark:bg-slate-800/70">
-                <p className="text-2xl font-semibold text-slate-900 dark:text-white">20+</p>
-                <p className="text-sm text-slate-600 dark:text-slate-300">projets livrés</p>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

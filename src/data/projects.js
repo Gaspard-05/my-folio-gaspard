@@ -7,7 +7,6 @@ export const projects = [
     technologies: ['HTML', 'Tailwind CSS', 'PHP natif/PDO', 'JavaScript', 'MySQL', 'Brevo'],
     github: 'https://github.com',
     demo: 'https://paiement-eig.great-site.net/',
-    // image: '/images/projects/seguro-hotel.png',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80',
     features: [
       'Suivi des paiements de scolarité par étudiant',
@@ -29,7 +28,6 @@ export const projects = [
     technologies: ['REACT.JS', 'LARAVEL','MYSQL', 'API-REST', 'LARAVEL-SANCTUM'],
     github: 'https://github.com',
     demo: 'https://esc-benin-formation.vercel.app/',
-    // image: '/images/projects/paiement-eig.png',
     image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80',
     features: [
       'Présentation des formations',
@@ -51,7 +49,6 @@ export const projects = [
     technologies: ['HTML', 'CSS/BOOTSTRAP', 'PHP natif/PDO', 'JavaScript', 'MySQL'],
     github: 'https://github.com',
     demo: null,
-    // image: '/images/projects/autozone.png',
     image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80',
     features: [
       'Consultation et réservation de chambres en ligne',
@@ -72,7 +69,6 @@ export const projects = [
     technologies: ['LARAVEL', 'LARAVEL-BREEZE','MYSQL', 'CLOUDINARY', 'FETCH'],
     github: 'https://github.com',
     demo: null,
-    // image: '/images/projects/boutik-manager.png',
     image: 'https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=1200&q=80',
     features: [
       'Gestion des produits, des ventes et des stocks',
@@ -95,7 +91,6 @@ export const projects = [
     technologies: ['MERISE', 'BPMN', 'UML', 'Scrum/Agile', 'Architecture logicielle'],
     github: 'https://gitlab.com/gaspard-dev-05/analyse-conception-logicielle-rdv-files-attente',
     demo: null,
-    // image: '/images/projects/wuri-benin.png',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80',
     features: [
       'Modélisation des données avec MERISE (MCD/MLD/MPD)',
