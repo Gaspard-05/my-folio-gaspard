@@ -12,7 +12,7 @@ const skillGroups = [
   },
   {
     title: 'Outils',
-    skills: ['Git/Github/GitLab', 'GitHub', 'VS Code', 'Postman', 'XAMPP', 'FileZilla'],
+    skills: ['Git/Github/GitLab', 'GitHub', 'Visual Paradigm', 'VS Code', 'Postman', 'XAMPP', 'FileZilla'],
   },
   {
     title: 'Méthodologies',
