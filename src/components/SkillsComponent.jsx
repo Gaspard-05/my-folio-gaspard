@@ -28,7 +28,7 @@ const skillGroups = [
   },
   {
     title: 'Déploiement & Hébergement',
-    skills: ['Vercel', 'InfinityFree', 'Netlify'],
+    skills: ['Vercel', 'InfinityFree'],
   },
   {
     title: 'Soft Skills',
