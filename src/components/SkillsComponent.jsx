@@ -23,8 +23,8 @@ const skillGroups = [
     skills: ['OWASP', 'Cryptographie', 'Sécurité des API', 'Sécurité des bases de données'],
   },
   {
-    title: 'Notions',
-    skills: ['PostgreSQL','Docker', 'Kubernetes', 'Helm', 'OAuth2', 'JWT', 'CI/CD/Github Actions', 'Tests unitaires et d’intégration'],
+    title: 'Notions de Base',
+    skills: ['PostgreSQL','Docker', 'OAuth2', 'JWT', 'CI/CD/Github Actions', 'Tests unitaires et d’intégration'],
   },
   {
     title: 'Déploiement & Hébergement',
